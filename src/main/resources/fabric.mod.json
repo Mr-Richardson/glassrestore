@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "glassrestore",
+  "version": "1.0.0",
+  "name": "Glass Restore",
+  "description": "Restores broken glass blocks after a delay.",
+  "authors": ["Mr_Richardson"],
+  "contact": {
+    "sources": "https://github.com/Mr-Richardson/concrete-command-blocks"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mrrichardson.glassrestore.GlassRestoreMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
